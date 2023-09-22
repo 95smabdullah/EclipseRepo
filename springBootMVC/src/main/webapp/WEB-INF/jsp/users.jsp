@@ -13,7 +13,6 @@
 <h2>User List</h2>
     <ul>
         <c:forEach items="${users}" var="user">
-            <li>${user.id}</li>
             <li>${user.name}</li>
         </c:forEach>
     </ul>
