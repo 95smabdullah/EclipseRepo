@@ -18,7 +18,7 @@ import com.flight.response.*;
 import com.flight.service.*;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RequestMapping("/fly")
 public class Controller {
 	
