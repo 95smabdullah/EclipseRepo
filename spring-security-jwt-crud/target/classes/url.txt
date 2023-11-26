@@ -1,0 +1,13 @@
+POST:
+-------------------------------------
+http://localhost:9192/authenticate
+
+ {
+     "userName":"gyanendra",
+     "password":"password"
+}
+
+Get:
+-------------------------------------------
+http://localhost:9192/
+Authorization:   Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJneWFuZW5kcmEiLCJleHAiOjE2NjM2OTg3NjgsImlhdCI6MTY2MzY2Mjc2OH0.dbsoWNMgzNGNy65ilMcz-IM-wWZosv80L_lEevF9Nsw
